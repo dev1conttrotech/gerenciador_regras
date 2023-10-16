@@ -1,3 +1,5 @@
+
+
 # Gerenciador de Regras para Importação de Dados do Excel para o Banco de Dados
 
 ## Objetivo
@@ -20,6 +22,10 @@ As regras são configuradas com as seguintes colunas:
 
 ### 4. banco_para: String
    - Descrição: Representa a coluna do banco de dados para a qual os dados extraídos do Excel serão gravados.
+   - Tipo de Dado: String
+
+### 5. exportacao_titulo: String
+   - Descrição: Titúlo da coluna no excel quando for exportada.
    - Tipo de Dado: String
 
 ## Exemplo de Regra
